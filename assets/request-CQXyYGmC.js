@@ -1,1 +1,0 @@
-import{ae as s}from"./index-C_dm5UXT.js";const r=s.create({baseURL:"http://citasmedicas.espromedbio.gob.ve",timeout:18e4});r.interceptors.request.use(e=>e,e=>(console.error("Error en la petición:",e),Promise.reject(e)));r.interceptors.response.use(e=>e.data,e=>(console.error("Error en la respuesta:",e),e.response?.data?.message,Promise.reject(e)));export{r as s};
